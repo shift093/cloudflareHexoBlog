@@ -3,17 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Shawn's Cloudflare Hexo blog
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: en
+author: Shawn
+language: zh-TW
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: http://shift093.github.io/cloudflareHexoBlog/
+root: /cloudflareHexoBlog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -96,9 +97,13 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
+#deploy:
+#  type: ''
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/shift093/cloudflareHexoBlog.git
+  branch: main
