@@ -105,5 +105,5 @@ theme: butterfly
 #  type: ''
 deploy:
   type: git
-  repo: https://github.com/shift093/cloudflareHexoBlog.git
+  repo: git@github.com:shift093/cloudflareHexoBlog.git
   branch: main
